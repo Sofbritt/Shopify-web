@@ -1,0 +1,70 @@
+.admin-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 450px;
+}
+
+.admin-form input {
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(255, 226, 231);
+    text-align: center;
+    display: grid;
+    margin-top: 15px;
+    height: 35px;
+    width: 300px;
+}
+
+.post-btn {
+    background-color: palevioletred;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    width: 170px;
+    height: 45px;
+    margin-top: 15px;
+}
+
+.postBtn-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-of-post {
+    text-align: center;
+    padding: 45px;
+    margin-top: 30px;
+    color: palevioletred;
+}
+
+.alert-posted {
+    background-color: palegreen;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    border-radius: 25px;
+    padding: 10px;
+    margin-left: 15px;
+
+}
+
+.div-of-postAlert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin-select {
+    border: none;
+  border-radius: 25px;
+    height: 35px;
+    width: 300px;
+    margin-top: 15px;
+    background-color: rgb(255, 226, 231);
+    text-align: center;
+    color: gray;
+}

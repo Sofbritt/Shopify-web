@@ -1,0 +1,116 @@
+.react-multi-carousel-track {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.react-multi-carousel-item {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  max-width: 300px;
+  min-width: 300px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
+  background: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+.saleImg {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.offersImg {
+  width: 100%;
+  height: 250px;
+}
+
+.offersTitle {
+  height: 65px;
+  text-align: center;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+}
+
+.price {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 16px;
+  font-family: Segoe UI, sans-serif;
+  color: black;
+  text-decoration: line-through;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.price-sale {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 16px;
+  font-family: Segoe UI, sans-serif;
+  color: #f26d26;
+
+  font-weight: 700;
+  font-size: 18px;
+}
+
+
+
+.see-more {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.card-link {
+  width: 90%;
+}
+
+.see-more-but {
+  color:palevioletred;
+  cursor: pointer;
+  border: 2px solid palevioletred;
+  padding: 5px 30px;
+  font-size: 18px;
+  background: transparent;
+  border-radius: 20px;
+}
+
+.special-offers {
+  color: palevioletred;
+  width: 100%;
+  height: auto;
+  position: relative;
+  font-size: 43px;
+  text-align: center;
+  margin: 0 0 60px;
+  margin-top: 50px;
+  font-weight: 700;
+
+}
+
+/* @media (max-width: 800px){
+  .offers{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    background-color: #f26d26;
+    
+  }
+} */
