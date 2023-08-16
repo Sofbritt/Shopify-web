@@ -61,7 +61,7 @@ function Admin() {
 
 
             <div className="title-of-post" ><h4>Post a new item</h4></div>
-
+           
             {open === true && (
                 <div className="div-of-postAlert">
                     <div className="alert-posted">Posted </div>

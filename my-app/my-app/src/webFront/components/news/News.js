@@ -49,7 +49,7 @@ function News() {
                         
 
 
-                            {/* <button className='show-moreBtn'>Show More<Icon.ArrowRight className='arrowRight-icon' /></button> */}
+                            <button className='show-moreBtn'>Show More<Icon.ArrowRight className='arrowRight-icon' /></button>
 
 
                         </div>
