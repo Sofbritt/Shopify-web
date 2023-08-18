@@ -72,7 +72,7 @@ function Admin() {
                 <form onSubmit={handlesubmit} >
                     <input type="text" placeholder="title" value={title} onChange={(e) => setTitle(e.target.value)} />
                     <input type="text" placeholder="img" value={img} onChange={(e) => setImg(e.target.value)} />
-                    {/* <input type="text" placeholder="category" value={category} } /> */}
+                    {/* <input type="text" placeholder="category" value={category}/> */}
 
                     <select className="admin-select" onChange={(e) => setCategory(e.target.value)}>
 
