@@ -1,6 +1,5 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import * as Icon from "react-bootstrap-icons";
 import "./News.css";
 
 
